@@ -4,7 +4,7 @@ import numpy
 import numpy as np
 
 # Vanilla
-img = cv2.imread("../images/albert.jpg", 0)
+img = cv2.imread("images/albert.jpg", 0)
 plt.imshow(cv2.cvtColor(img, cv2.COLOR_GRAY2RGB))
 plt.show()
 
